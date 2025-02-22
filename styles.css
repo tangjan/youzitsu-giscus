@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.plain {
+  display: inline-block;
+  color: #231815;
+}
+
+.styled-group {
+  display: inline-flex;
+  line-height: 1.1em;
+  text-align: center;
+  background: #231815;
+  padding: 0.02em;
+}
+
+.char {
+  display: inline-block;
+  width: 1.1em;
+  margin: 0.02em;
+}
+
+.red {
+  background: #e5005a;
+  color: #fff;
+}
+
+.dark-red {
+  background: #a3003e;
+  color: #fff;
+}
+
+.white {
+  background: #fff;
+  color: #231815;
+}
+
+a {
+  color: #444;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #a3003e;
+}
